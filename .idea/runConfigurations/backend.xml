@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="backend" type="AppEngineRunConfiguration" factoryName="App Engine DevAppServer" singleton="true">
+    <module name="backend" />
+    <setting name="serverAddress" value="0.0.0.0" />
+    <setting name="sdkPath" value="file://$USER_HOME$/.gradle/appengine-sdk/appengine-java-sdk-1.9.18" />
+    <setting name="serverPort" value="8080" />
+    <setting name="vmArgs" value="" />
+    <setting name="warPath" value="$PROJECT_DIR$/backend/build/exploded-app" />
+    <setting name="sync" value="false" />
+    <setting name="disableUpdateCheck" value="false" />
+    <method>
+      <option name="AppEngine.Gradle.BeforeRunTask" enabled="true" tasks=":backend:assemble" externalProjectPath="$PROJECT_DIR$" />
+    </method>
+  </configuration>
+</component>
